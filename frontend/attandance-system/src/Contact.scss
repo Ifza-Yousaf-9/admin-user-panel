@@ -1,0 +1,60 @@
+.contact-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  
+    .contact-form {
+      display: flex;
+      flex-direction: column;
+  
+      label {
+        margin-bottom: 5px;
+      }
+  
+      input,
+      textarea {
+        margin-bottom: 10px;
+        padding: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        width: 250px;
+      }
+      .label-textarea {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+      .label-textarea label {
+        margin-bottom: 10px; /* Thoda oopar shift */
+      
+      
+      .label-textarea textarea {
+        margin-bottom: 20px; /* Thoda zyada space neeche */
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }}
+    }
+      
+      button {
+        padding: 15px 10px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        width: 80px;
+        cursor: pointer;
+      }
+    }
+  
+    .contact-footer {
+      margin-top: 20px;
+      text-align: center;
+    }
+  }
+  

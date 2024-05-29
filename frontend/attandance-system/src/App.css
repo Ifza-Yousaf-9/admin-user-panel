@@ -1,0 +1,46 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0; /* Position the navbar on the left */
+  width: 200px; /* Adjust width as needed */
+  background-color: #333;
+  overflow: hidden;
+  height: 100vh; /* Set height to full viewport */
+  display: flex;
+  flex-direction: column; /* Vertical layout */
+}
+
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar li {
+  display: flex; /* Allow icons and labels to be positioned side-by-side */
+  align-items: center; /* Align content vertically */
+  padding: 10px 20px;
+  cursor: pointer; /* Indicate clickable elements */
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  margin-left: 10px; /* Space between icon and label */
+}
+
+.navbar li:hover {
+  background-color: #ddd;
+}
+
+.navbar li:hover a {
+  color: black;
+}
+
+/* Assuming you have font icons or images for the navbar items */
+.navbar li i {
+  font-size: 30px; /* Adjust icon size as needed */
+  color: white;
+}

@@ -1,0 +1,25 @@
+.services-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.services-page__title {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+.services-page__description {
+  margin-bottom: 20px;
+}
+.services-page__list {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-bottom: 190px;
+  padding-bottom: 190px;
+}
+.services-page__list li {
+  padding-bottom: 30px;
+}
+.services-page__info {
+  font-style: italic;
+  color: #888;
+}/*# sourceMappingURL=Services.css.map */
